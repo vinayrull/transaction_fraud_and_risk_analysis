@@ -1,33 +1,32 @@
 # Transaction Fraud & Risk Analysis
 
 ## Overview
-This project analyzes large-scale transaction data to identify fraud patterns, behavioral anomalies, and credit risk indicators across users, merchants, and transaction types.  
-Using SQL, the analysis focuses on translating transactional data into actionable insights for fraud detection and risk management.
-
-The dataset contains approximately **24 million transaction records**, requiring efficient querying and aggregation strategies.
+This project analyses large-scale transaction data to identify fraud patterns, behavioural anomalies, and credit risk indicators across users, merchants, and transaction types.  
+Using SQL, the analysis focuses on translating transactional data into actionable insights for fraud detection and risk management. The dataset contains approximately 
+**24 million transaction records**, requiring efficient querying and aggregation strategies.
 
 ---
 
 ## Project Structure
-/sql
-├── <script_1>.sql
-├── <script_2>.sql
-├── <script_3>.sql
-├── <script_4>.sql
-└── <script_5>.sql
-
-/docs
-├── data_preparation_and_relationship_analysis.pdf
-└── transaction_fraud_and_risk_analysis.pdf
+- `transaction_fraud_and_risk_analysis.pdf` - Main analysis
+- `other`
+  - `data_preparation.pdf` - Data cleaning, validation and table relationship documentation
+- `sql_scripts`
+  - `transaction_fraud_and_risk_analysis.sql`
+  - `tables_relationship.sql`
+  - `transactions_cleaning.sql`
+  - `transactions_cleaning.sql`
+  - `user_info_cleaning.sql` 
 
 ---
 
-## Key Questions Addressed
-- Which users exhibit extreme deviations from their normal spending behavior, and how does this relate to fraud risk?
-- Which merchant cities and merchants demonstrate disproportionately high fraud rates?
-- How does fraud prevalence differ across transaction types (chip, swipe, online)?
-- How are credit cards distributed across utilisation bands based on average monthly spend?
-- To what extent do users concentrate spending with a single merchant?
+## Questions Addressed
+- How does fraud risk vary when users’ daily spending exceeds their own 30-day rolling average?
+- Which merchant cities have the highest fraud rates?
+- Which merchants have the highest fraud rate?
+- How does fraud differ based on transaction type?
+- How many credit cards fall into utilisation bands based on average monthly spend versus credit limit?
+- For each user, what percentage of total spend goes to their top merchant? 
 
 ---
 
@@ -53,14 +52,10 @@ The dataset contains approximately **24 million transaction records**, requiring
 - The majority of credit cards operate well below their credit limits, while a small subset consistently approaches high utilisation levels.
 - A small number of users concentrate a significant proportion of their spending with a single merchant.
 
----
-
-## Outcome
-This project demonstrates the application of SQL to large transactional datasets to support fraud detection, behavioral analysis, and risk management.  
-The focus is on producing clear, business-relevant insights rather than purely technical outputs.
 
 ---
 
 ## Notes
 - SQL scripts contain the final production-ready queries used to generate findings.
 - PDFs provide supporting documentation on data preparation, table relationships, and analytical conclusions.
+
