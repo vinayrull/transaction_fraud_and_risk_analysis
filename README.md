@@ -1,23 +1,21 @@
 # Transaction Fraud & Risk Analysis
 
 ## Overview
-This project analyses large-scale transaction data to identify fraud patterns, behavioural anomalies, and credit risk indicators across users, merchants, and transaction types.   
-Using SQL, the analysis focuses on translating transactional data into actionable insights for fraud detection and risk management.  
-The dataset contains approximately **24 million transaction records**, requiring efficient querying and aggregation strategies.
+This project analyses **24 million transaction records** to identify fraud patterns, behavioural anomalies, and credit risk indicators across users, merchants, and transaction types.     
 
 ---
 
 ## Project Structure
-- `transaction_fraud_and_risk_analysis.pdf` - Main analysis
-- other`
-    - `data_preparation.pdf` - Data cleaning, validation and table relationship documentation
+- `transaction_fraud_and_risk_analysis.pdf` - **Main Report**
 - sql_scripts
     - `transaction_fraud_and_risk_analysis.sql`
     - `tables_relationship.sql`
     - `transactions_cleaning.sql`
     - `transactions_cleaning.sql`
     - `user_info_cleaning.sql` 
-
+- other`
+    - `data_preparation.pdf
+ 
 ---
 
 ## Questions Addressed
