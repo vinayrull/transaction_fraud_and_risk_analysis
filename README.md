@@ -6,9 +6,9 @@ This project analyses **24 million transaction records** to identify fraud patte
 ---
 
 ## Project Structure
-- `**transaction_fraud_and_risk_analysis.pdf**`
+- **`transaction_fraud_and_risk_analysis.pdf`**
 - sql_scripts
-    - `**transaction_fraud_and_risk_analysis.sql**`
+    - **`transaction_fraud_and_risk_analysis.sql`**
     - tables_relationship.sql
     - transactions_cleaning.sql
     - transactions_cleaning.sql
