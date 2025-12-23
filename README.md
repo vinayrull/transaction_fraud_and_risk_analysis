@@ -28,21 +28,6 @@ This project analyses **24 million transaction records** to identify fraud patte
 
 ---
 
-## Tools & Techniques
-- **SQL**
-  - Common Table Expressions (CTEs)
-  - Window functions
-  - Conditional aggregation
-  - CASE statements
-  - Time-based aggregations
-- **Data Analysis Concepts**
-  - Behavioral anomaly detection
-  - Fraud rate calculation
-  - Risk segmentation
-  - Credit utilisation analysis
-
----
-
 ## Key Findings & Results
 - Extreme deviations from a user’s normal spending behavior are rare but strongly correlated with fraud risk.
 - Certain merchant cities and merchants exhibit unusually high fraud rates relative to transaction volume.
