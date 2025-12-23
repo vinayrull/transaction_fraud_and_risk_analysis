@@ -6,9 +6,9 @@ This project analyses **24 million transaction records** to identify fraud patte
 ---
 
 ## Project Structure
-- **transaction_fraud_and_risk_analysis.pdf**
+- `**transaction_fraud_and_risk_analysis.pdf**`
 - sql_scripts
-    - **transaction_fraud_and_risk_analysis.sql**
+    - `**transaction_fraud_and_risk_analysis.sql**`
     - tables_relationship.sql
     - transactions_cleaning.sql
     - transactions_cleaning.sql
@@ -19,12 +19,12 @@ This project analyses **24 million transaction records** to identify fraud patte
 ---
 
 ## Questions Addressed
-- How does fraud risk vary when users’ daily spending exceeds their own 30-day rolling average?
-- Which merchant cities have the highest fraud rates?
-- Which merchants have the highest fraud rate?
-- How does fraud differ based on transaction type?
-- How many credit cards fall into utilisation bands based on average monthly spend versus credit limit?
-- For each user, what percentage of total spend goes to their top merchant? 
+1. How does fraud risk vary when users’ daily spending exceeds their own 30-day rolling average?
+2. Which merchant cities have the highest fraud rates?
+3. Which merchants have the highest fraud rate?
+4. How does fraud differ based on transaction type?
+5. How many credit cards fall into utilisation bands based on average monthly spend versus credit limit?
+6. For each user, what percentage of total spend goes to their top merchant? 
 
 ---
 
