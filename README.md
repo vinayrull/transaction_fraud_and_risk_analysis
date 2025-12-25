@@ -17,6 +17,12 @@ This project analyses **24 million transaction records** to identify fraud patte
  
 ---
 
+## Raw Data
+Download raw data from Kaggle - Credit Card Transactions 
+[https://www.kaggle.com/datasets/ealtman2019/credit-card-transactions]
+
+---
+
 ## Questions Addressed
 1. How does fraud risk vary when users’ daily spending exceeds their own 30-day rolling average?
 2. Which merchant cities have the highest fraud rates?
